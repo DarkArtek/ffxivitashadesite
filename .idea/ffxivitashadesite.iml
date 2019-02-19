@@ -16,7 +16,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Pipenv (ffxivitashadesite)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="ffxivita-fc" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

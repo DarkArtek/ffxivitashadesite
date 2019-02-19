@@ -130,14 +130,15 @@ ALLOWED_HOSTS = ['*']
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 # AWS
-AWS_ACCESS_KEY_ID = 'AKIAIOPUNCENQ3UPKHNA'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'ffxivitashade'
-AWS_DEFAULT_ACL = 'public-read-write'
-AWS_S3_REGION_NAME = 'eu-west-2'
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# AWS_ACCESS_KEY_ID = 'AKIAIOPUNCENQ3UPKHNA'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'ffxivitashade'
+# AWS_DEFAULT_ACL = 'public-read-write'
+# AWS_S3_REGION_NAME = 'eu-west-2'
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# S TATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STAIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 # STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
 # Extra places for collectstatic to find static files.
