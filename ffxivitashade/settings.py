@@ -137,8 +137,9 @@ ALLOWED_HOSTS = ['*']
 # AWS_S3_REGION_NAME = 'eu-west-2'
 # DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 # S TATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+DEFAULT_FILE_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorag'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STAIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STAItC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 # STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
 # Extra places for collectstatic to find static files.
@@ -153,7 +154,7 @@ MEDIA_URL = '/media/'
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Activate Django-Heroku.
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 
 # git push
 # STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
