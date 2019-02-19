@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="157" column="65" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="65" />
+            <state relative-caret-position="235">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -134,7 +136,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ffxivita-fc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -270,17 +272,18 @@
       <updated>1550565686453</updated>
       <workItem from="1550565811191" duration="10145000" />
       <workItem from="1550578962930" duration="641000" />
+      <workItem from="1550583121178" duration="710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10786000" />
+    <option name="totallyTimeSpent" value="11496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -394,6 +397,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/creators/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -461,13 +467,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="157" column="65" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="65" />
+        <state relative-caret-position="235">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
