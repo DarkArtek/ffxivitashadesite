@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ffxivita-fc/.idea/ffxivita-fc.iml" filepath="$PROJECT_DIR$/../ffxivita-fc/.idea/ffxivita-fc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ffxivitashadesite.iml" filepath="$PROJECT_DIR$/.idea/ffxivitashadesite.iml" />
     </modules>
   </component>
