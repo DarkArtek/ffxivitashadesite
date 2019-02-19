@@ -14,5 +14,6 @@ django-autoslug = "*"
 pillow = "*"
 django-avatar = "*"
 django-storages = "*"
+"boto3" = "*"
 
 [dev-packages]
