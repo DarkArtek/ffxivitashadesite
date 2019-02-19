@@ -84,12 +84,14 @@ WSGI_APPLICATION = 'ffxivitashade.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
+DATABASES['default'] = dj_database_url.config(default='postgres://sgtikyaijybved:dc413946a27f65ae03f06b7bdf88d48c2175a02de7b59a7d9397bfa9beeb8c76@ec2-54-75-227-10.eu-west-1.compute.amazonaws.com:5432/d1ejilhcbbr8sf')
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -128,7 +130,7 @@ ALLOWED_HOSTS = ['*']
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-# STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 # STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = [

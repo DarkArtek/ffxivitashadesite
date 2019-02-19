@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="276">
+              <caret line="93" column="215" selection-start-line="93" selection-start-column="215" selection-end-line="93" selection-end-column="215" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -272,12 +271,12 @@
       <updated>1550565686453</updated>
       <workItem from="1550565811191" duration="10145000" />
       <workItem from="1550578962930" duration="641000" />
-      <workItem from="1550583121178" duration="710000" />
+      <workItem from="1550583121178" duration="1310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11496000" />
+    <option name="totallyTimeSpent" value="12096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="6" />
@@ -469,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="276">
+          <caret line="93" column="215" selection-start-line="93" selection-start-column="215" selection-end-line="93" selection-end-column="215" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
