@@ -155,5 +155,5 @@ MEDIA_URL = '/media/'
 # Activate Django-Heroku.
 # django_heroku.settings(locals())
 
-
+# git push
 # STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
