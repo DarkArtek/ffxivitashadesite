@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55720989-dcb2-49af-b26d-792c5e50a6b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/accounts/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/partials/_alerts.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../venicebar/templates/base_about.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../venicebar/templates/new_site/about.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../venicebar/templates/new_site/about_us.html" afterDir="false" />
@@ -49,9 +51,8 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/venicesite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/venicesite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/workspace.xml" afterDir="false" />
@@ -81,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+            <state relative-caret-position="462">
+              <caret line="171" column="151" selection-start-line="171" selection-start-column="151" selection-end-line="171" selection-end-column="151" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -94,10 +95,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="276">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="53" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/partials/_alerts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding>
+                <element signature="e#275#282#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,14 +141,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/accounts/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1313">
+              <caret line="95" column="14" lean-forward="true" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -150,9 +181,12 @@
         <option value="$PROJECT_DIR$/creators/admin.py" />
         <option value="$PROJECT_DIR$/static/css/admin.css" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/ffxivitashade/urls.py" />
         <option value="$PROJECT_DIR$/ffxivitashade/settings.py" />
+        <option value="$PROJECT_DIR$/templates/admin/base_site.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/partials/_alerts.html" />
+        <option value="$PROJECT_DIR$/templates/accounts/register.html" />
       </list>
     </option>
   </component>
@@ -178,17 +212,6 @@
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-              <item name="ffxivitashade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-              <item name="ffxivitashade" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,12 +223,7 @@
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-              <item name="presets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,18 +293,18 @@
       <workItem from="1550583121178" duration="11418000" />
       <workItem from="1550674357918" duration="10000" />
       <workItem from="1550674375969" duration="967000" />
-      <workItem from="1550692100074" duration="1418000" />
+      <workItem from="1550692100074" duration="2334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24599000" />
+    <option name="totallyTimeSpent" value="25515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.19722815" />
       <window_info id="Favorites" order="2" sideWeight="0.501462" side_tool="true" weight="0.19722815" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,7 +318,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23146068" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23146068" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32921347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -507,13 +518,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+        <state relative-caret-position="462">
+          <caret line="171" column="151" selection-start-line="171" selection-start-column="151" selection-end-line="171" selection-end-column="151" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/_alerts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#275#282#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/accounts/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1313">
+          <caret line="95" column="14" lean-forward="true" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
         </state>
       </provider>
     </entry>
