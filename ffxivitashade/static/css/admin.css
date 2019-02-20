@@ -1,0 +1,52 @@
+#header {
+    height: 90px;
+    color: #fff;
+    font-size: large;
+    background: #f0eff0;
+}
+#user-tools {
+  float: right;
+  padding: 0;
+  margin: 0 0 0 20px;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #003366;
+}
+
+#header a:link {
+  color: #003366;
+}
+
+#header a:visited {
+  color: #003366;
+}
+
+#branding h1 {
+  color: #fff;
+}
+
+a:link,
+a:visited {
+  color:#10284e;
+}
+
+div.breadcrumbs {
+  background: #30caa0;
+  color: #10284e;
+}
+
+div.breadcrumbs a {
+  color: #333;
+}
+
+.module h2, .module caption, .inline-group h2 {
+  background: #49626C;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+  background: #10284e;
+  color: #fff;
+}

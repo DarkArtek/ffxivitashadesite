@@ -15,5 +15,8 @@ pillow = "*"
 django-avatar = "*"
 django-storages = "*"
 "boto3" = "*"
+rjsmin = "*"
+django-compressor = "*"
+sorl-thumbnail = "*"
 
 [dev-packages]

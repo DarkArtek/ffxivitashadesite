@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% load thumbnail %}
+{% block title %}Home{% endblock %}
+{% block navbar %}
+    <!--******************************************************
+******************** The Navbar
+****************************************************** -->
+
+    <!-- Navbar Section -->
+      <nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent" data-spy="affix" data-offset-top="1" data-offset-bottom="1">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand font-sm" href="{% url 'index' %}">Home</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="active"><a href="#start">{% trans 'Start' %}</a></li>
+              <li><a href="#overview">{% trans 'Overview' %}</a></li>
+              <li><a href="#mainfeatures">{% trans 'Features' %}</a></li>
+              <li><a href="#statistics">{% trans 'Statistics' %}</a></li>
+              <li><a href="#basics">{% trans 'Basics' %}</a></li>
+              <li><a href="">{% trans 'Contact' %}</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{% url 'register' %}">{% trans 'Register' %}</a></li>
+                  <li><a href="{% url 'login' %}">{% trans 'Login' %}</a></li>
+                  <li><a href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a></li>
+                  <li><a href="{% url 'logout' %}">{% trans 'Logout' %}</a> </li>
+                  <li><a href="{% url 'presets' %}">{% trans 'Presets' %}</a> </li>
+                  {% if request.user.is_superuser %}
+                  <li><a href="{% url 'admin:index' %}">{% trans 'Admin Section' %}</a> </li>
+                  {% endif %}
+                </ul>
+              </li>
+            </ul>
+
+            <a href="" target="_blank" class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+{% endblock %}
+{% block hero %}
+    <!--******************************************************
+******************** The Hero
+****************************************************** -->
+        <div class="wrapper wrapper-darker wrapper-no-padding-bottom hero" id="start">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center wrapper-xs push-navbar-height-top">
+                  <h2>FFXIVITA - Shade</h2>
+                  <p class="lead">{% trans 'A custom Reshade with unlocked shaders for Final Fantasy XIV.' %}</p>
+
+                </div>
+
+                    <div class="col-md-10 col-md-offset-1 text-center ">
+                  <img src="{% static 'img/logo.png' %}" alt="app screenshot on tablet and phone" class=" wow fadeIn " data-wow-delay="0.75s"/>
+                </div>
+              </div>
+          </div>
+        </div>
+{% endblock %}
+{% block wrapper1 %}
+    <!--******************************************************
+******************** The First Content Wrapper
+****************************************************** -->
+        <div class="wrapper wrapper-darker wrapper-md text-center" id="overview">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 wrapper-xs wrapper-darker wow fadeIn ">
+                <a href="{% static 'img/below_hero/ffxiv_dx11_2018-12-20_04-29-01.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_dx11_2018-12-20_04-29-01.png' %}" width="337" height="189.56" class="img-responsive wow fadeIn " data-wow-delay="0.75s" /> </a>
+              </div>
+
+              <div class="col-md-4 wrapper-xs wrapper-darker wow fadeIn " data-wow-delay="0.25s">
+                <a href="{% static 'img/below_hero/Final_Fantasy_XIV_A_Realm_Reborn_Screenshot_2018.12.19_-_05.33.03.89.png' %}" data-fancybox><img src="{% static 'img/below_hero/Final_Fantasy_XIV_A_Realm_Reborn_Screenshot_2018.12.19_-_05.33.03.89-768x432.png' %}" width="337" height="189.56" class="img-responsive wow fadeIn" /> </a>
+              </div>
+
+              <div class="col-md-4 wrapper-xs wrapper-darker wow fadeIn " data-wow-delay=".5s">
+                  <a href="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" class="img-responsive  wow fadeIn" /> </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+{% endblock %}
+{% block wrapper2 %}
+    <!--******************************************************
+******************** The Second Content Wrapper
+****************************************************** -->
+        <div class="wrapper wrapper-lighter wrapper-md text-center mainfeat" id="mainfeatures">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p class="wow fadeIn " data-wow-delay="0.75s" style="color: white; text-transform: uppercase">{% trans '*Simulated Effects' %}</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <i class="fa fa-check-square-o colored fa-lg"></i>
+                    <h3 style="color: white; text-transform: uppercase;">{% trans 'a much more immersive eorzea...' %}</h3>
+                    <p class="lead" style="color: white;">
+                        {% trans 'Experience Final Fantasy 14 in a whole new graphical level. Thanks to improved DOF (perfect for /gpose screenshots), *HDR, *Subsurface Scattering and the new QUINT Ambient Occlusion technique, the world of Eorzea just got a lot prettier.' %}
+                    </p>
+                </div>
+              </div>
+          </div>
+        </div>
+{% endblock %}
+{% block wrapper3 %}
+    <!--******************************************************
+******************** The Third Content Wrapper
+****************************************************** -->
+        <div class="wrapper wrapper-dark wrapper-md wrapper text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn ">
+                <a href="{% static 'img/below_hero/ffxiv_dx11_2018-12-20_04-29-01.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_dx11_2018-12-20_04-29-01.png' %}" width="337" height="189.56" class="wow fadeIn " data-wow-delay="0.75s" /> </a>
+              </div>
+
+              <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn " data-wow-delay="0.25s">
+                <a href="{% static 'img/below_hero/Final_Fantasy_XIV_A_Realm_Reborn_Screenshot_2018.12.19_-_05.33.03.89.png' %}" data-fancybox><img src="{% static 'img/below_hero/Final_Fantasy_XIV_A_Realm_Reborn_Screenshot_2018.12.19_-_05.33.03.89-768x432.png' %}" width="337" height="189.56" class="wow fadeIn" /> </a>
+              </div>
+
+              <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn " data-wow-delay=".5s">
+                  <a href="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" class="img-responsive  wow fadeIn" /> </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+{% endblock %}
