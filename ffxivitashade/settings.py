@@ -131,8 +131,8 @@ ALLOWED_HOSTS = ['*']
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = "AKIAJHS66XMSU5DILHAA"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = "AKIAJCS5F3ION3OJSWWQ"
+AWS_SECRET_ACCESS_KEY = "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"
 AWS_STORAGE_BUCKET_NAME = "shader"
 AWS_DEFAULT_ACL = "public-read"
 AWS_S3_ENCRYPTION = True
