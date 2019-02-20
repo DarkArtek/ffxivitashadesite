@@ -27,4 +27,4 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 admin.sites.AdminSite.site_title = 'FFXIVITAShade'
-admin.sites.AdminSite.index_title = 'Index'
+admin.sites.AdminSite.index_title = 'Admin Index'
