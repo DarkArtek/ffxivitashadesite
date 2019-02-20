@@ -18,5 +18,6 @@ django-storages = "*"
 rjsmin = "*"
 django-compressor = "*"
 sorl-thumbnail = "*"
+django-redis = "*"
 
 [dev-packages]

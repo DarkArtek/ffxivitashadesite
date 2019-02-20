@@ -165,5 +165,14 @@ MEDIA_URL = '/media/'
 # Activate Django-Heroku.
 django_heroku.settings(locals())
 
-#Admin Title
-ADMIN_SITE_HEADER = "FFXIVITAShade"
+# Redis
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://h:p91b8cc4a49d2abb83e777a12f5a13ecf226d0a401a8c7c396b6718968b1417a1@ec2-63-35-33-111.eu-west-1.compute.amazonaws.com:26709",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
