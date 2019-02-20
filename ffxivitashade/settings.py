@@ -131,13 +131,23 @@ ALLOWED_HOSTS = ['*']
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = "AKIAIH2B7SFXOUYQQDMA"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_STORAGE_BUCKET_NAME = "shader"
-AWS_DEFAULT_ACL = "public-read"
-AWS_S3_ENCRYPTION = True
-AWS_S3_REGION_NAME = "eu-central-1"
-STATIC_URL = '/static/'
+# AWS
+AWS_S3_REGION_NAME = 'ams3'
+AWS_ACCESS_KEY_ID = 'PBJOAYB6C2EZBWA4OAJT'
+AWS_SECRET_ACCESS_KEY = 'bOCdubL02WAeUSptlqPtzloInkqHMgaocT32b/eyWuY'
+AWS_STORAGE_BUCKET_NAME = 'ffxivitashade'
+AWS_S3_ENDPOINT_URL = 'https://ams3.digitaloceanspaces.com'
+AWS_S3_OBJECT_PARAMETERS = {
+    'CacheControl': 'max-age=86400',
+}
+AWS_LOCATION = 'ffxivita-shader'
+AWS_QUERYSTRING_AUTH = False
+AWS_HEADERS = {
+    'Expires': 'Thu, 15 Apr 2021 20:00:00 GMT',
+    'Access-Control-Allow-Origin':'*',
+}
+STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
+# STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
