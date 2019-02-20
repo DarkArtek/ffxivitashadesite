@@ -26,4 +26,5 @@ urlpatterns = [
     path('account/', include('accounts.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-admin.site.site_header = settings.ADMIN_SITE_HEADER
+admin.sites.AdminSite.site_title = 'FFXIVITAShade'
+admin.sites.AdminSite.index_title = 'Index'

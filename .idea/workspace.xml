@@ -49,9 +49,7 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffxivitashade/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/base_site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/venicesite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/venicesite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/workspace.xml" afterDir="false" />
@@ -66,6 +64,9 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ffxivitashadesite" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -90,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -104,7 +105,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
@@ -146,10 +147,10 @@
         <option value="$PROJECT_DIR$/presets/models.py" />
         <option value="$PROJECT_DIR$/creators/admin.py" />
         <option value="$PROJECT_DIR$/static/css/admin.css" />
-        <option value="$PROJECT_DIR$/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/ffxivitashade/settings.py" />
         <option value="$PROJECT_DIR$/ffxivitashade/urls.py" />
+        <option value="$PROJECT_DIR$/templates/admin/base_site.html" />
       </list>
     </option>
   </component>
@@ -171,11 +172,6 @@
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-              <item name="creators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
@@ -277,16 +273,15 @@
       <workItem from="1550583121178" duration="11418000" />
       <workItem from="1550674357918" duration="10000" />
       <workItem from="1550674375969" duration="967000" />
-      <workItem from="1550692100074" duration="475000" />
+      <workItem from="1550692100074" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23656000" />
+    <option name="totallyTimeSpent" value="23895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -492,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -516,6 +504,13 @@
           <folding>
             <element signature="e#638#670#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
