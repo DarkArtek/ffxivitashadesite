@@ -164,3 +164,6 @@ MEDIA_URL = '/media/'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+#Admin Title
+ADMIN_SITE_HEADER = "FFXIVITAShade"
