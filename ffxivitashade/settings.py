@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'pages',
     'creators',
     'storages',
-    'sorl.thumbnail'
 ]
 
 MIDDLEWARE = [
