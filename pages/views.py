@@ -13,7 +13,7 @@ def index(request):
         'version': version_choices
     }
 
-    return render(request, 'pages/index.html', context)
+    return render(request, 'pages/../templates/index.html', context)
 
 
 def about(request):

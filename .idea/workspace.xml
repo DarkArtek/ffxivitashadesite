@@ -2,609 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55720989-dcb2-49af-b26d-792c5e50a6b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allauth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/adapter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/app_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/auth_backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/management/commands/account_unsetmultipleprimaryemails.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/migrations/0002_email_max_length.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/templatetags/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/account/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/app_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/da/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/el/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/en/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/he/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/it/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/ky/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/no/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/pt_PT/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/th/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/locale/zh_TW/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/adapter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/app_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/migrations/0002_token_max_lengths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/migrations/0003_extra_data_default_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/agave/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/agave/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/agave/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/agave/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/agave/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/asana/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/asana/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/asana/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/asana/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/asana/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/asana/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/auth0/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/auth0/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/auth0/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/auth0/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/auth0/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/authentiq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/authentiq/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/authentiq/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/authentiq/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/authentiq/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/azure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/azure/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/azure/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/azure/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/azure/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/azure/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/basecamp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/basecamp/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/basecamp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/basecamp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/basecamp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/battlenet/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket_oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket_oauth2/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket_oauth2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket_oauth2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket_oauth2/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/box/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/box/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/box/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/box/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/box/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/cern/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/cern/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/cern/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/cern/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/cern/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dataporten/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dataporten/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dataporten/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dataporten/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dataporten/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dataporten/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/daum/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/daum/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/daum/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/daum/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/daum/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/daum/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/digitalocean/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/digitalocean/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/digitalocean/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/digitalocean/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/digitalocean/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/discord/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/discord/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/discord/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/discord/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/discord/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/disqus/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/disqus/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/disqus/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/disqus/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/disqus/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/doximity/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/doximity/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/doximity/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/doximity/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/doximity/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/draugiem/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/draugiem/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/draugiem/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/draugiem/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/draugiem/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dwolla/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dwolla/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dwolla/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dwolla/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dwolla/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/dwolla/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/edmodo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/edmodo/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/edmodo/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/edmodo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/edmodo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eventbrite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eventbrite/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eventbrite/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eventbrite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eventbrite/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eveonline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eveonline/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eveonline/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eveonline/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/eveonline/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/data/FacebookLocales.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/locale.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/static/facebook/js/fbconnect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/templates/facebook/fbconnect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fivehundredpx/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fivehundredpx/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fivehundredpx/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fivehundredpx/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fivehundredpx/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fivehundredpx/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/github/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/github/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/github/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/github/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/github/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/gitlab/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/gitlab/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/gitlab/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/gitlab/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/gitlab/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/globus/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/globus/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/globus/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/globus/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/globus/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/google/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/google/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/google/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/google/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/google/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/jupyterhub/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/jupyterhub/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/jupyterhub/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/jupyterhub/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/jupyterhub/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/kakao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/kakao/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/kakao/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/kakao/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/kakao/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/kakao/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/line/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/line/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/line/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/line/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/line/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/line/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailchimp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailchimp/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailchimp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailchimp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailchimp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/meetup/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/meetup/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/meetup/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/meetup/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/meetup/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/meetup/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/microsoft/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/microsoft/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/microsoft/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/microsoft/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/microsoft/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/microsoft/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/naver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/naver/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/naver/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/naver/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/naver/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/naver/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/patreon/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/patreon/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/patreon/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/patreon/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/patreon/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/patreon/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/templates/persona/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/pinterest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/pinterest/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/pinterest/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/pinterest/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/pinterest/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/quickbooks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/quickbooks/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/quickbooks/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/quickbooks/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/quickbooks/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/quickbooks/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/reddit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/reddit/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/reddit/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/reddit/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/reddit/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/robinhood/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/robinhood/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/robinhood/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/robinhood/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/robinhood/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/salesforce/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/salesforce/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/salesforce/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/salesforce/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/salesforce/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/shopify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/shopify/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/shopify/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/shopify/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/shopify/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/slack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/slack/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/slack/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/slack/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/slack/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/slack/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/steam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/steam/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/steam/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/steam/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/steam/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stripe/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stripe/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stripe/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stripe/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/stripe/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/telegram/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/telegram/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/telegram/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/telegram/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/trello/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/trello/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/trello/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/trello/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/trello/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twentythreeandme/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twentythreeandme/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twentythreeandme/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twentythreeandme/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twentythreeandme/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/untappd/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/untappd/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/untappd/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/untappd/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/untappd/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/untappd/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo_oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo_oauth2/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo_oauth2/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo_oauth2/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo_oauth2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo_oauth2/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weixin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weixin/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weixin/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weixin/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weixin/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/weixin/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/yahoo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/yahoo/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/yahoo/provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/yahoo/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/yahoo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/providers/yahoo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/templatetags/socialaccount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/socialaccount/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/account_inactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_signup_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_signup_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email/password_reset_key_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email/password_reset_key_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/cannot_delete_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/email_confirmation_sent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/email_confirmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/email_deleted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/logged_in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/logged_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/password_changed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/password_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/primary_email_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/messages/unverified_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/password_reset_from_key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/password_reset_from_key_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/password_set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/signup_closed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/snippets/already_logged_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/verification_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/account/verified_email_required.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/openid/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/openid/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/authentication_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/connections.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/login_cancelled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/messages/account_connected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/messages/account_connected_other.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/messages/account_disconnected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/snippets/login_extra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/templates/socialaccount/snippets/provider_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allauth/utils.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../venicebar/templates/base_about.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../venicebar/templates/new_site/about.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../venicebar/templates/new_site/about_us.html" afterDir="false" />
@@ -653,11 +50,9 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allauth/account/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" afterDir="false" />
@@ -750,10 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="966">
               <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
@@ -778,6 +173,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/allauth/account/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allauth/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allauth/account/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -819,8 +244,10 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/accounts/register.html" />
         <option value="$PROJECT_DIR$/templates/pages/index.html" />
-        <option value="$PROJECT_DIR$/allauth/account/urls.py" />
         <option value="$PROJECT_DIR$/ffxivitashade/settings.py" />
+        <option value="$PROJECT_DIR$/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/allauth/account/urls.py" />
+        <option value="$PROJECT_DIR$/templates/allauth/account/signup.html" />
       </list>
     </option>
   </component>
@@ -842,6 +269,17 @@
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
+              <item name="allauth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
+              <item name="allauth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
@@ -875,19 +313,20 @@
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="allauth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffxivitashadesite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffxivitashadesite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="allauth" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -905,6 +344,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/allauth/account" />
+      <recent name="$PROJECT_DIR$/templates/allauth" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/locale" />
     </key>
@@ -963,17 +407,17 @@
       <workItem from="1550674357918" duration="10000" />
       <workItem from="1550674375969" duration="967000" />
       <workItem from="1550692100074" duration="2767000" />
-      <workItem from="1550730803904" duration="3663000" />
+      <workItem from="1550730803904" duration="4243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29611000" />
+    <option name="totallyTimeSpent" value="30191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.19957082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.19957082" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.19722815" />
       <window_info id="Favorites" order="2" sideWeight="0.501462" side_tool="true" weight="0.19722815" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -987,7 +431,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23088455" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23088455" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32921347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1188,16 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
-          <folding>
-            <element signature="e#3579#3586#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -1211,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-651">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
@@ -1224,13 +658,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/account/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1297,6 +724,16 @@
     <entry file="file://$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#331#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/allauth/account/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1306,13 +743,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
+    <entry file="file://$PROJECT_DIR$/allauth/account/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="667">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="e#331#340#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allauth/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/allauth/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
         </state>
       </provider>
     </entry>
