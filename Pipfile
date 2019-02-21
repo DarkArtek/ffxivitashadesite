@@ -19,5 +19,6 @@ rjsmin = "*"
 django-compressor = "*"
 sorl-thumbnail = "*"
 django-redis = "*"
+django-allauth = "*"
 
 [dev-packages]
