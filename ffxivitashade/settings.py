@@ -40,11 +40,22 @@ INSTALLED_APPS = [
     # http://whitenoise.evans.io/en/stable/django.html#using-whitenoise-in-development
     # 'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'storages',
     'django.contrib.humanize',
     'presets',
     'accounts',
-    'pages',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.steam',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.telegram',
+    'allauth.socialaccount.providers.twitch',
+    'allauth.socialaccount.providers.twitter',
+    'allauth.socialaccount.providers.windowslive',
+    'allauth.socialaccount.providers.discord',
+    'allauth.socialaccount.providers.google',
     'creators',
 ]
 
@@ -176,3 +187,4 @@ CACHES = {
     }
 }
 
+SITE_ID = 1

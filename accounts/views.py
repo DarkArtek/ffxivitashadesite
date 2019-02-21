@@ -4,11 +4,11 @@ from django.shortcuts import render, redirect
 # Create your views here.
 
 def register(request):
-    return render(request, 'accounts/register.html')
+    return render(request, 'account/signup.html')
 
 
 def login(request):
-    return render(request, 'accounts/login.html')
+    return render(request, 'account/login.html')
 
 
 def logout(request):
@@ -16,4 +16,4 @@ def logout(request):
 
 
 def dashboard(request):
-    return render(request, 'accounts/dashboard.html')
+    return render(request, 'account/dashboard.html')
