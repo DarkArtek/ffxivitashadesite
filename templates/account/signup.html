@@ -28,15 +28,19 @@
               <li><a href="{% url 'index' %}#start">{% trans 'Start' %}</a></li>
               <li><a href="{% url 'index' %}#overview">{% trans 'Overview' %}</a></li>
               <li><a href="{% url 'index' %}#mainfeatures">{% trans 'Features' %}</a></li>
-              <li><a href="{% url 'index' %}#statistics">{% trans 'Statistics' %}</a></li>
+              <li><a href="{% url 'index' %}#zdepth">{% trans 'Unlocked Z Depth' %}</a></li>
               <li><a href="{% url 'index' %}#basics">{% trans 'Basics' %}</a></li>
               <li><a href="">{% trans 'Contact' %}</a></li>
               <li class="dropdown active">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                 <ul class="dropdown-menu">
+                  {% if user.is_authenticated %}
+                  <li><a href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a></li>
+                  <li><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a> </li>
+                  {% else %}
                   <li class="active"><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></li>
                   <li><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
-                  <li><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a> </li>
+                  {% endif %}
                   <li><a href="{% url 'presets' %}">{% trans 'Presets' %}</a> </li>
                   {% if request.user.is_superuser %}
                   <li><a href="{% url 'admin:index' %}">{% trans 'Admin Section' %}</a> </li>
@@ -45,7 +49,7 @@
               </li>
             </ul>
 
-            <a href="" target="_blank" class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
+            <a href="https://finalfantasyxivitalia.it/wp-content/uploads/FFXIVITAShade.zip" target="_blank" class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
 
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

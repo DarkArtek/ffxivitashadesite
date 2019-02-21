@@ -28,16 +28,19 @@
               <li class="active"><a href="#start">{% trans 'Start' %}</a></li>
               <li><a href="#overview">{% trans 'Overview' %}</a></li>
               <li><a href="#mainfeatures">{% trans 'Features' %}</a></li>
-              <li><a href="#statistics">{% trans 'Statistics' %}</a></li>
-              <li><a href="#basics">{% trans 'Basics' %}</a></li>
+              <li><a href="#zdepth">{% trans 'Unlocked Z Depth' %}</a></li>
+              <li><a href="#comm">{% trans 'Community Made Presets' %}</a></li>
               <li><a href="">{% trans 'Contact' %}</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></li>
-                  <li><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
+                  {% if user.is_authenticated %}
                   <li><a href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a></li>
                   <li><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a> </li>
+                  {% else %}
+                  <li><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></li>
+                  <li><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
+                  {% endif %}
                   <li><a href="{% url 'presets' %}">{% trans 'Presets' %}</a> </li>
                   {% if request.user.is_superuser %}
                   <li><a href="{% url 'admin:index' %}">{% trans 'Admin Section' %}</a> </li>
@@ -45,8 +48,7 @@
                 </ul>
               </li>
             </ul>
-
-            <a href="" target="_blank" class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
+            <a href="https://finalfantasyxivitalia.it/wp-content/uploads/FFXIVITAShade.zip" target="_blank" class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
 
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -88,7 +90,7 @@
               </div>
 
               <div class="col-md-4 wrapper-xs wrapper-darker wow fadeIn " data-wow-delay=".5s">
-                  <a href="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" class="img-responsive  wow fadeIn" /> </a>
+                  <a href="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" width="337" height="189.56" class="img-responsive  wow fadeIn" /> </a>
               </div>
 
             </div>
@@ -103,12 +105,11 @@
           <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <p class="wow fadeIn " data-wow-delay="0.75s" style="color: white; text-transform: uppercase">{% trans '*Simulated Effects' %}</p>
+                    <p class="wow fadeIn " data-wow-delay="0.95s" style="color: white; text-transform: uppercase">*{% trans 'Simulated Effects' %}</p>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <i class="fa fa-check-square-o colored fa-lg"></i>
                     <h3 style="color: white; text-transform: uppercase;">{% trans 'a much more immersive eorzea...' %}</h3>
                     <p class="lead" style="color: white;">
                         {% trans 'Experience Final Fantasy 14 in a whole new graphical level. Thanks to improved DOF (perfect for /gpose screenshots), *HDR, *Subsurface Scattering and the new QUINT Ambient Occlusion technique, the world of Eorzea just got a lot prettier.' %}
@@ -126,18 +127,89 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn ">
-                <a href="{% static 'img/below_hero/ffxiv_dx11_2018-12-20_04-29-01.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_dx11_2018-12-20_04-29-01.png' %}" width="337" height="189.56" class="wow fadeIn " data-wow-delay="0.75s" /> </a>
+                <a href="{% static 'img/below_hero/5.jpg' %}" data-fancybox><img src="{% static 'img/below_hero/5.jpg' %}" width="337" height="189.56" class="wow fadeIn " data-wow-delay="0.75s" /> </a>
               </div>
 
               <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn " data-wow-delay="0.25s">
-                <a href="{% static 'img/below_hero/Final_Fantasy_XIV_A_Realm_Reborn_Screenshot_2018.12.19_-_05.33.03.89.png' %}" data-fancybox><img src="{% static 'img/below_hero/Final_Fantasy_XIV_A_Realm_Reborn_Screenshot_2018.12.19_-_05.33.03.89-768x432.png' %}" width="337" height="189.56" class="wow fadeIn" /> </a>
+                <a href="{% static 'img/below_hero/acn.png' %}" data-fancybox><img src="{% static 'img/below_hero/acn.png' %}" width="337" height="189.56" class="img-responsive fadeIn" /> </a>
               </div>
 
               <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn " data-wow-delay=".5s">
-                  <a href="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" data-fancybox><img src="{% static 'img/below_hero/ffxiv_12172018_153146.png' %}" class="img-responsive  wow fadeIn" /> </a>
+                  <a href="{% static 'img/below_hero/aura.jpg' %}" data-fancybox><img src="{% static 'img/below_hero/aura.jpg' %}" width="337" height="189.56" class="img-responsive  wow fadeIn" /> </a>
               </div>
 
             </div>
+          </div>
+        </div>
+{% endblock %}
+{% block stats %}
+    <!--******************************************************
+******************** The Second Content Wrapper
+****************************************************** -->
+        <div class="wrapper wrapper-dark wrapper-md text-center zdepth" id="zdepth">
+          <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-8 col-md-offset-2">
+                    <p class="wow fadeIn " data-wow-delay="0.75s" style="color: white; text-transform: uppercase">{% trans '*Simulated Effects' %}</p>
+                </div> -->
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 style="color: white; text-transform: uppercase;" class="wow fadeIn" data-wow-delay="0.75s">{% trans 'UNLOCKED Z-DEPTH BUFFER' %}</h3>
+                    <p><br /></p>
+                    <p class="lead wow fadeIn" style="color: white;" data-wow-delay="0.85s">
+                        {% blocktrans %}
+                            Reshade shader effects that uses depth buffer (DOF, AO) are automatically disabled once it detects any network activity.<br />This limitation was implemented to avoid gaining an unfair advantage in competitive multiplayer games (like seeing through smoke).<br /><br />
+                            FFXIVITAShade has an unlocked z-depth buffer so that it can utilize some of Reshade’s advanced shader effects.{% endblocktrans %}
+                    </p>
+                </div>
+              </div>
+          </div>
+        </div>
+{% endblock %}
+{% block beforecomm %}
+    <div class="wrapper wrapper-dark wrapper-md wrapper text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn ">
+                <a href="{% static 'img/below_hero/image0-1.jpg' %}" data-fancybox><img src="{% static 'img/below_hero/image0-1.jpg' %}" width="337" height="189.56" class="wow fadeIn " data-wow-delay="0.75s" /> </a>
+              </div>
+
+              <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn " data-wow-delay="0.25s">
+                <a href="{% static 'img/below_hero/miqo.jpg' %}" data-fancybox><img src="{% static 'img/below_hero/miqo.jpg' %}" width="337" height="189.56" class="img-responsive wow fadeIn" /> </a>
+              </div>
+
+              <div class="col-md-4 wrapper-xs wrapper-dark wow fadeIn " data-wow-delay=".5s">
+                  <a href="{% static 'img/below_hero/bard.png' %}" data-fancybox><img src="{% static 'img/below_hero/bard.png' %}" width="337" height="189.56" class="img-responsive  wow fadeIn" /> </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+{% endblock %}
+{% block testimonials %}
+     <!--******************************************************
+******************** The Second Content Wrapper
+****************************************************** -->
+        <div class="wrapper wrapper-dark wrapper-md text-center community" id="comm">
+          <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-8 col-md-offset-2">
+                    <p class="wow fadeIn " data-wow-delay="0.75s" style="color: white; text-transform: uppercase">{% trans '*Simulated Effects' %}</p>
+                </div> -->
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 pull-right">
+                    <h3 style="color: white; text-transform: uppercase;" class="wow fadeIn" data-wow-delay="0.75s">{% trans 'community made presets' %}</h3>
+                    <p><br /></p>
+                    <p class="lead wow fadeIn" style="color: white;" data-wow-delay="0.85s">
+                        {% trans 'Get that perfect in-game visuals by browsing some of the best presets created by the FFXIVITAShade community – or create and share your own configuration.' %}
+                    </p>
+                    <p class="lead wow fadeInDown" data-wow-delay="0.99">
+                         <a href="{% url 'presets' %}" class="btn btn-large btn-success-outline navbar-btn text-uppercase">{% trans 'Browse Presets' %}</a>
+                    </p>
+                </div>
+              </div>
           </div>
         </div>
 {% endblock %}

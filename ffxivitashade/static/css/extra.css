@@ -16,3 +16,13 @@
     /*background-position: center top; */
     background-size: cover;
 }
+.zdepth{
+    background-image: url("../img/bg/MLadyYuna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.community{
+    background-image: url("../img/bg/KiyomiLavellan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
