@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.steam',
+    'allauth.socialaccount.providers.disqus',
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.telegram',
     'allauth.socialaccount.providers.twitch',
