@@ -49,7 +49,7 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" afterDir="false" />
@@ -172,8 +172,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="277">
+              <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -193,7 +193,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="-1035">
               <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
             </state>
           </provider>
@@ -202,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/account/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+            <state relative-caret-position="2576">
+              <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -270,12 +270,12 @@
         <option value="$PROJECT_DIR$/templates/socialaccount/authentication_error.html" />
         <option value="$PROJECT_DIR$/templates/account/signup.html" />
         <option value="$PROJECT_DIR$/ffxivitashade/static/css/extra.css" />
-        <option value="$PROJECT_DIR$/templates/account/login.html" />
         <option value="$PROJECT_DIR$/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/ffxivitashade/static/css/bica.css" />
         <option value="$PROJECT_DIR$/ffxivitashade/static/js/bica.js" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/ffxivitashade/settings.py" />
+        <option value="$PROJECT_DIR$/templates/account/login.html" />
       </list>
     </option>
   </component>
@@ -443,12 +443,12 @@
       <workItem from="1550730803904" duration="7838000" />
       <workItem from="1550744320910" duration="4012000" />
       <workItem from="1550778043301" duration="7107000" />
-      <workItem from="1550819129867" duration="1978000" />
+      <workItem from="1550819129867" duration="2220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46883000" />
+    <option name="totallyTimeSpent" value="47125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="6" />
@@ -745,27 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/socialaccount/authentication_error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -780,10 +759,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2576">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="277">
+          <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>

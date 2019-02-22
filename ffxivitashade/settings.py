@@ -25,7 +25,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = "bte3^x0tb)td5#1)je2_oyuhjuyv_m*g9+udle86=k+v22@4l@"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # Application definition
 
@@ -48,14 +48,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.disqus',
-    'allauth.socialaccount.providers.facebook',
-    'allauth.socialaccount.providers.telegram',
-    'allauth.socialaccount.providers.twitch',
     'allauth.socialaccount.providers.twitter',
     'allauth.socialaccount.providers.windowslive',
     'allauth.socialaccount.providers.discord',
-    'allauth.socialaccount.providers.google',
     'creators',
     'pages',
 ]
