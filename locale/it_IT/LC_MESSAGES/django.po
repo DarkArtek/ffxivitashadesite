@@ -1,0 +1,268 @@
+        # SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-22 15:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\creators\models.py:24
+msgid "Creator Name"
+msgstr ""
+
+#: .\templates\account\login.html:4 .\templates\account\login.html:67
+#: .\templates\account\login.html:106
+msgid "Sign In"
+msgstr ""
+
+#: .\templates\account\login.html:29 .\templates\account\signup.html:28
+#: .\templates\pages\index.html:28
+#: .\templates\socialaccount\authentication_error.html:28
+#: .\templates\socialaccount\connections.html:28
+msgid "Start"
+msgstr ""
+
+#: .\templates\account\login.html:30 .\templates\account\signup.html:29
+#: .\templates\pages\index.html:29
+#: .\templates\socialaccount\authentication_error.html:29
+#: .\templates\socialaccount\connections.html:29
+msgid "Overview"
+msgstr ""
+
+#: .\templates\account\login.html:31 .\templates\account\signup.html:30
+#: .\templates\pages\index.html:30
+#: .\templates\socialaccount\authentication_error.html:30
+#: .\templates\socialaccount\connections.html:30
+msgid "Features"
+msgstr ""
+
+#: .\templates\account\login.html:32 .\templates\account\signup.html:31
+#: .\templates\pages\index.html:31
+msgid "Unlocked Z Depth"
+msgstr ""
+
+#: .\templates\account\login.html:33 .\templates\pages\index.html:32
+msgid "Community Made Presets"
+msgstr ""
+
+#: .\templates\account\login.html:34 .\templates\account\signup.html:33
+#: .\templates\pages\index.html:33
+#: .\templates\socialaccount\authentication_error.html:33
+#: .\templates\socialaccount\connections.html:33
+msgid "Contact"
+msgstr ""
+
+#: .\templates\account\login.html:39 .\templates\account\signup.html:38
+#: .\templates\pages\index.html:38
+#: .\templates\socialaccount\authentication_error.html:38
+#: .\templates\socialaccount\connections.html:39
+msgid "Dashboard"
+msgstr ""
+
+#: .\templates\account\login.html:40 .\templates\account\signup.html:39
+#: .\templates\pages\index.html:39
+#: .\templates\socialaccount\authentication_error.html:39
+#: .\templates\socialaccount\connections.html:40
+msgid "Logout"
+msgstr ""
+
+#: .\templates\account\login.html:42 .\templates\account\signup.html:41
+#: .\templates\pages\index.html:41
+#: .\templates\socialaccount\authentication_error.html:41
+#: .\templates\socialaccount\connections.html:42
+msgid "Register"
+msgstr ""
+
+#: .\templates\account\login.html:43 .\templates\account\signup.html:42
+#: .\templates\pages\index.html:42
+#: .\templates\socialaccount\authentication_error.html:42
+#: .\templates\socialaccount\connections.html:43
+msgid "Login"
+msgstr ""
+
+#: .\templates\account\login.html:45 .\templates\account\signup.html:44
+#: .\templates\pages\index.html:44
+#: .\templates\socialaccount\authentication_error.html:44
+#: .\templates\socialaccount\connections.html:45
+msgid "Presets"
+msgstr ""
+
+#: .\templates\account\login.html:47 .\templates\account\signup.html:46
+#: .\templates\pages\index.html:46
+#: .\templates\socialaccount\authentication_error.html:46
+#: .\templates\socialaccount\connections.html:47
+msgid "Admin Section"
+msgstr ""
+
+#: .\templates\account\login.html:53 .\templates\account\signup.html:52
+#: .\templates\pages\index.html:51
+#: .\templates\socialaccount\authentication_error.html:52
+#: .\templates\socialaccount\connections.html:54
+msgid "Download Now"
+msgstr ""
+
+#: .\templates\account\login.html:68
+#: .\templates\socialaccount\authentication_error.html:67
+msgid "Login to your account for sharing your presets"
+msgstr ""
+
+#: .\templates\account\login.html:82
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"                    of your existing third party accounts. Or, <a href=\"%"
+"(signup_url)s\">sign up</a>\n"
+"                    for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: .\templates\account\login.html:90
+msgid "or"
+msgstr ""
+
+#: .\templates\account\login.html:95
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"                    <a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: .\templates\account\login.html:105
+msgid "Forgot Password?"
+msgstr ""
+
+#: .\templates\account\login.html:110 .\templates\account\signup.html:89
+#: .\templates\socialaccount\authentication_error.html:82
+#: .\templates\socialaccount\connections.html:118
+msgid "Useful Links"
+msgstr ""
+
+#: .\templates\account\signup.html:3
+msgid "Registration"
+msgstr ""
+
+#: .\templates\account\signup.html:32
+#: .\templates\socialaccount\authentication_error.html:32
+#: .\templates\socialaccount\connections.html:32
+msgid "Basics"
+msgstr ""
+
+#: .\templates\account\signup.html:66 .\templates\account\signup.html:85
+msgid "Sign Up"
+msgstr ""
+
+#: .\templates\account\signup.html:67
+msgid "Register a free account for sharing your presets"
+msgstr ""
+
+#: .\templates\account\signup.html:78
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: .\templates\base.html:9 .\templates\pages\index.html:66
+msgid "A custom Reshade with unlocked shaders for Final Fantasy XIV."
+msgstr ""
+
+#: .\templates\pages\index.html:108
+msgid "Simulated Effects"
+msgstr ""
+
+#: .\templates\pages\index.html:113
+msgid "a much more immersive eorzea..."
+msgstr ""
+
+#: .\templates\pages\index.html:115
+msgid ""
+"Experience Final Fantasy 14 in a whole new graphical level. Thanks to "
+"improved DOF (perfect for /gpose screenshots), *HDR, *Subsurface Scattering "
+"and the new QUINT Ambient Occlusion technique, the world of Eorzea just got "
+"a lot prettier."
+msgstr ""
+
+#: .\templates\pages\index.html:153 .\templates\pages\index.html:198
+msgid "*Simulated Effects"
+msgstr ""
+
+#: .\templates\pages\index.html:158
+msgid "UNLOCKED Z-DEPTH BUFFER"
+msgstr ""
+
+#: .\templates\pages\index.html:161
+msgid ""
+"\n"
+"                            Reshade shader effects that uses depth buffer "
+"(DOF, AO) are automatically disabled once it detects any network activity."
+"<br />This limitation was implemented to avoid gaining an unfair advantage "
+"in competitive multiplayer games (like seeing through smoke).<br /><br />\n"
+"                            FFXIVITAShade has an unlocked z-depth buffer so "
+"that it can utilize some of Reshadeâs advanced shader effects."
+msgstr ""
+
+#: .\templates\pages\index.html:203
+msgid "community made presets"
+msgstr ""
+
+#: .\templates\pages\index.html:206
+msgid ""
+"Get that perfect in-game visuals by browsing some of the best presets "
+"created by the FFXIVITAShade community â or create and share your own "
+"configuration."
+msgstr ""
+
+#: .\templates\pages\index.html:209
+msgid "Browse Presets"
+msgstr ""
+
+#: .\templates\socialaccount\authentication_error.html:3
+#: .\templates\socialaccount\authentication_error.html:66
+msgid "Social Network Login Failure"
+msgstr ""
+
+#: .\templates\socialaccount\authentication_error.html:31
+#: .\templates\socialaccount\connections.html:31
+msgid "Statistics"
+msgstr ""
+
+#: .\templates\socialaccount\authentication_error.html:78
+msgid ""
+"An error occurred while attempting to login via your social network account."
+msgstr ""
+
+#: .\templates\socialaccount\connections.html:3
+#: .\templates\socialaccount\connections.html:68
+msgid "Account Connections"
+msgstr ""
+
+#: .\templates\socialaccount\connections.html:69
+msgid "Modify Your Connections"
+msgstr ""
+
+#: .\templates\socialaccount\connections.html:81
+msgid ""
+"You can sign in to your account using any of the following third party\n"
+"                            accounts:"
+msgstr ""
+
+#: .\templates\socialaccount\connections.html:103
+msgid "Remove"
+msgstr ""
+
+#: .\templates\socialaccount\connections.html:108
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr ""
+
+#: .\templates\socialaccount\connections.html:110
+msgid "Add a 3rd Party Account"
+msgstr ""

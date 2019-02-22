@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static i18n %}
-{% block title %}{% trans "Social Network Login Failure" %}{% endblock %}
+{% block title %}{% trans 'SignOut' %}{%  endblock %}
 {% block navbar %}
     <!--******************************************************
 ******************** The Navbar
@@ -28,18 +28,18 @@
               <li><a href="{% url 'index' %}#start">{% trans 'Start' %}</a></li>
               <li><a href="{% url 'index' %}#overview">{% trans 'Overview' %}</a></li>
               <li><a href="{% url 'index' %}#mainfeatures">{% trans 'Features' %}</a></li>
-              <li><a href="{% url 'index' %}#statistics">{% trans 'Statistics' %}</a></li>
-              <li><a href="{% url 'index' %}#basics">{% trans 'Basics' %}</a></li>
+              <li><a href="{% url 'index' %}#zdepth">{% trans 'Unlocked Z Depth' %}</a></li>
+              <li><a href="{% url 'index' %}#comm">{% trans 'Community Made Presets' %}</a></li>
               <li><a href="">{% trans 'Contact' %}</a></li>
               <li class="dropdown active">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   {% if user.is_authenticated %}
                   <li><a href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a></li>
-                  <li><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a> </li>
+                  <li class="active"><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a> </li>
                   {% else %}
                   <li><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></li>
-                  <li class="active"><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
+                  <li"><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
                   {% endif %}
                   <li><a href="{% url 'presets' %}">{% trans 'Presets' %}</a> </li>
                   {% if request.user.is_superuser %}
@@ -63,7 +63,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12 text-center wrapper-xs push-navbar-height-top">
-                  <h2>{% trans "Social Network Login Failure" %}</h2>
+                  <h2>{% trans 'Sign In' %}</h2>
                   <p class="lead">{% trans 'Login to your account for sharing your presets' %}</p>
 
                 </div>
@@ -72,15 +72,22 @@
         </div>
 {% endblock %}
 {% block content %}
-    <div class="wrapper-dark wrapper-sm wrapper-default">
+    <div class="wrapper-dark wrapper-sm wrapper-default" id="blog">
         <div class="container">
             <div class="col-md-8 col-border-right">
-                <p>{% trans "An error occurred while attempting to login via your social network account." %}</p>
+                <p>>{% trans 'Are you sure you want to sign out?' %}</p>
+               <form method="post" action="{% url 'account_logout' %}">
+                    {% csrf_token %}
+                    {% if redirect_field_value %}
+                        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+                    {% endif %}
+                    <button type="submit" class="btn btn-sm btn-success-outline">{% trans 'Sign Out' %}</button>
+                </form>
             </div>
-        </div>
-        <div class="col-md-4">
+            <div class="col-md-4">
                 <h4>{% trans 'Useful Links' %}</h4>
                 <p class="lead">&nbsp;</p>
             </div>
+        </div>
     </div>
 {% endblock %}
