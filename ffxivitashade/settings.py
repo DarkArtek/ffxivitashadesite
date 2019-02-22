@@ -47,8 +47,6 @@ INSTALLED_APPS = [
     'accounts',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.twitter',
     'creators',
     'pages',
 ]
