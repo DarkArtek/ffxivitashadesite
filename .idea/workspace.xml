@@ -49,7 +49,6 @@
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/fc/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ffxivita-fc/templates/base_pagine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffxivitashade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" afterDir="false" />
@@ -172,8 +171,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state relative-caret-position="237">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -443,12 +442,12 @@
       <workItem from="1550730803904" duration="7838000" />
       <workItem from="1550744320910" duration="4012000" />
       <workItem from="1550778043301" duration="7107000" />
-      <workItem from="1550819129867" duration="2673000" />
+      <workItem from="1550819129867" duration="2884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47578000" />
+    <option name="totallyTimeSpent" value="47789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="6" />
@@ -782,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        <state relative-caret-position="237">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
