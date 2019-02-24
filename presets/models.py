@@ -44,6 +44,7 @@ class Preset(models.Model):
     img_8 = models.ImageField(upload_to=upload_preset_image_path, blank=True)
     is_published = models.BooleanField(default=False)
     date = models.DateField(default=timezone.now)
+    down_link = models.URLField(max_length=200, null=True, blank=True)
 
     def save(self, *args, **kwargs):
         self.preset_slug = slugify(self.name)
