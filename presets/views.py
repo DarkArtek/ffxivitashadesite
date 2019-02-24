@@ -7,7 +7,7 @@ from .choices import version_choices
 # Create your views here.
 
 def index(request):
-    listings = Preset.objects.order_by('-preset-date').filter(is_published=True)
+    listings = Preset.objects.order_by('-date').filter(is_published=True)
     paginator = Paginator(listings, 6)
     page = request.GET.get('page')
     paged_listings = paginator.get_page(page)
@@ -26,7 +26,7 @@ def preset(request, slug):
 
 
 def search(request):
-    queryset_list = Preset.objects.order_by('-preset-date')
+    queryset_list = Preset.objects.order_by('-date')
     # Keywords
     if 'keywords' in request.GET:
         keywords = request.GET['keywords']

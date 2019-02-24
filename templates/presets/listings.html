@@ -1,0 +1,163 @@
+{% extends 'base.html' %}
+{% load static i18n account humanize %}
+{% block title %}{% trans 'Presets' %}{% endblock %}
+{% block navbar %}
+    <!--******************************************************
+******************** The Navbar
+****************************************************** -->
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent" data-spy="affix" data-offset-top="1"
+         data-offset-bottom="1" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand font-sm" href="{% url 'index' %}">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="{% url 'index' %}#start">{% trans 'Start' %}</a></li>
+                    <li><a href="{% url 'index' %}#overview">{% trans 'Overview' %}</a></li>
+                    <li><a href="{% url 'index' %}#mainfeatures">{% trans 'Features' %}</a></li>
+                    <li><a href="{% url 'index' %}#zdepth">{% trans 'Unlocked Z Depth' %}</a></li>
+                    <li><a href="{% url 'index' %}#comm">{% trans 'Community Made Presets' %}</a></li>
+                    <li><a href="">{% trans 'Contact' %}</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Pages <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% if user.is_authenticated %}
+                                <li><a href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a></li>
+                                <li><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a></li>
+                            {% else %}
+                                <li><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></li>
+                                <li"><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
+                            {% endif %}
+                            <li class="active"><a href="{% url 'presets' %}">{% trans 'Presets' %}</a></li>
+                            {% if request.user.is_superuser %}
+                                <li><a href="{% url 'admin:index' %}">{% trans 'Admin Section' %}</a></li>
+                            {% endif %}
+                        </ul>
+                    </li>
+                </ul>
+
+                <a href="https://finalfantasyxivitalia.it/wp-content/uploads/FFXIVITAShade.zip" target="_blank"
+                   class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+{% endblock %}
+{% block hero %}
+    <!--******************************************************
+******************** The Hero
+****************************************************** -->
+    <div class="wrapper wrapper-darker wrapper-no-padding-bottom zdepth" id="start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center wrapper-xs push-navbar-height-top">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <div class="card" style="background-color: transparent; border: transparent">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-transform: uppercase">{% trans 'Presets Library' %}</h5>
+                                <p class="card-text">{% trans 'Get that perfect in-game visuals by browsing some of the best presets created by the FFXIVITAShade community.' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" style="background-color: transparent; border: transparent">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-transform: uppercase">{% trans 'Submit a Preset' %}</h5>
+                                <p class="card-text">{% trans 'Want to share your own preset? Submit it by' %} <a href="{% url 'account_signup' %}">{% trans 'creating an account' %}</a> / <a href="{% url 'account_login' %}">{% trans 'logging in' %}</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="wrapper-darker wrapper-xs wrapper-default">
+        <div class="container">
+            <div class="col-md-12 ">
+                <div class="row">
+                    {% if listings %}
+                        <div class="card-columns">
+                            {% for preset in listings %}
+                                <div class="card border-success mb-3" style="background-color: transparent">
+                                    <img class="card-img-top" src="{{ preset.bg_image.url }}" alt="{{ preset.name }}">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-transform: uppercase">{{ preset.name }}</h5>
+                                        <p class="card-text">{{ preset.description|slice:":200"}} ...</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{% url 'viewpreset' preset.slug %}" class="btn btn-sm btn-success-outline">{% trans 'View Preset' %}</a>
+                                        <span class="pull-right">{{ preset.author }} - {{ preset.date }}</span>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            <!--<div class="col-md-4">
+                <p class="lead">Bla</p>
+            </div> -->
+        </div>
+    </div>
+{% endblock %}
+{% block paginator %}
+    <div class="wrapper-darker wrapper-xs wrapper-default">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                     {% if listings.has_other_pages %}
+            <ul class="pagination">
+              {% if listings.has_previous %}
+                <li class="page-item">
+                  <a href="?page={{listings.previous_page_number}}" class="page-link">&laquo;</a>
+                </li>
+              {% else %}
+                <li class="page-item disabled">
+                  <a class="page-link">&laquo;</a>
+                </li>
+              {% endif %}
+              {% for i in listings.paginator.page_range %}
+                {% if listings.number == i %}
+                  <li class="page-item active">
+                    <a class="page-link">{{i}}</a>
+                  </li>
+                {% else %}
+                  <li class="page-item">
+                    <a href="?page={{i}}" class="page-link">{{i}}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+              {% if listings.has_next %}
+                <li class="page-item">
+                  <a href="?page={{listings.next_page_number}}" class="page-link">&raquo;</a>
+                </li>
+              {% else %}
+                <li class="page-item disabled">
+                  <a class="page-link">&raquo;</a>
+                </li>
+              {% endif %}
+            </ul>
+          {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

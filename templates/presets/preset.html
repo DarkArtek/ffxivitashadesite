@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+{% load static i18n humanize %}
+{% block title %}{{ preset.name }}{% endblock %}
+{% block navbar %}
+    <!--******************************************************
+******************** The Navbar
+****************************************************** -->
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent" data-spy="affix" data-offset-top="1"
+         data-offset-bottom="1" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand font-sm" href="{% url 'index' %}">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="{% url 'index' %}#start">{% trans 'Start' %}</a></li>
+                    <li><a href="{% url 'index' %}#overview">{% trans 'Overview' %}</a></li>
+                    <li><a href="{% url 'index' %}#mainfeatures">{% trans 'Features' %}</a></li>
+                    <li><a href="{% url 'index' %}#zdepth">{% trans 'Unlocked Z Depth' %}</a></li>
+                    <li><a href="{% url 'index' %}#comm">{% trans 'Community Made Presets' %}</a></li>
+                    <li><a href="">{% trans 'Contact' %}</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Pages <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% if user.is_authenticated %}
+                                <li><a href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a></li>
+                                <li><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a></li>
+                            {% else %}
+                                <li><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></li>
+                                <li"><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></li>
+                            {% endif %}
+                            <li class="active"><a href="{% url 'presets' %}">{% trans 'Presets' %}</a></li>
+                            {% if request.user.is_superuser %}
+                                <li><a href="{% url 'admin:index' %}">{% trans 'Admin Section' %}</a></li>
+                            {% endif %}
+                        </ul>
+                    </li>
+                </ul>
+
+                <a href="https://finalfantasyxivitalia.it/wp-content/uploads/FFXIVITAShade.zip" target="_blank"
+                   class="btn btn-sm btn-success-outline navbar-btn pull-right">{% trans 'Download Now' %}</a>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+{% endblock %}
+{% block hero %}
+    <div class="wrapper wrapper-darker wrapper-no-padding-bottom preset_page" id="start" style="background-image: url({{ preset.bg_image.url }}); background-size: cover;">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12 text-center wrapper-lg push-navbar-height-top">
+                    <div class="row">
+                        <div class="col-md-12 text-center" style="">
+                            <div class="card" style="background: transparent; border: transparent; text-transform: uppercase;">
+                                <div class="card-body">
+                                    <h2 class="card-title">{{ preset.name }}</h2>
+                                    <p class="card-text">{% trans 'Inserted On' %} {{ preset.date }} {% trans 'by' %} {{ preset.author }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="wrapper-darker wrapper-xs wrapper-default" id="start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-border-right">
+                    <div class="card" style="background: transparent; border: transparent;">
+                        <h5 class="card-header">{% trans 'Preset Description' %}</h5>
+                        <p class="card-text">{{ preset.description }}</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="background: transparent; border: transparent">
+                        <div class="card-body">
+                            <h5 class="card-title">{% trans 'Download' %}</h5>
+                            <a href="https://finalfantasyxivitalia.it/wp-content/uploads/FFXIVITAShade.zip" target="_blank" class="btn btn-sm btn-success-outline navbar-btn">Download Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                    <div class="card-columns wow fadeIn" data-wow-delay="0.25s">
+                        {% if preset.img_1 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_1.url }}" data-fancybox><img class="card-img" src="{{ preset.img_1.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_2 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_2.url }}" data-fancybox><img class="card-img" src="{{ preset.img_2.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_3 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_3.url }}" data-fancybox><img class="card-img" src="{{ preset.img_3.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_4 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_4.url }}" data-fancybox><img class="card-img" src="{{ preset.img_4.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_5 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_5.url }}" data-fancybox><img class="card-img" src="{{ preset.img_5.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_6 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_6.url }}" data-fancybox><img class="card-img" src="{{ preset.img_6.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_7 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_7.url }}" data-fancybox><img class="card-img" src="{{ preset.img_7.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                        {% if preset.img_8 %}
+                            <div class="card border-success mb-3" style="background: transparent;">
+                                <a href="{{ preset.img_8.url }}" data-fancybox><img class="card-img" src="{{ preset.img_8.url }}" alt="{{ preset.name }}"></a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

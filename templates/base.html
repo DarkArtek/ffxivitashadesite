@@ -1,5 +1,4 @@
-{% load static %}
-{% load i18n %}
+{% load static i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,137 +15,149 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{% static 'css/theme.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/theme.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/animate.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/extra.css' %}">
+    {% block presetcss %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/extra.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/bica.min.css' %}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"/>
 </head>
 <body data-spy="scroll" data-target=".navbar" class="layout-boxed-no" style="overflow-y:hidden;">
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="status">&nbsp;</div>
-    </div>
-    {% block navbar %}{% endblock %}
-    {% block hero %}{% endblock %}
-    {% block wrapper1 %}{% endblock %}
-    {% block wrapper2 %}{% endblock %}
-    {% block wrapper3 %}{% endblock %}
-    {% block stats %}{% endblock %}
-    {% block features %}{% endblock %}
-    {% block beforecomm %}{% endblock %}
-    {% block testimonials %}{% endblock %}
-    {% block content %}{% endblock %}
-    <!--******************************************************
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+{% block navbar %}{% endblock %}
+{% block hero %}{% endblock %}
+{% block wrapper1 %}{% endblock %}
+{% block wrapper2 %}{% endblock %}
+{% block wrapper3 %}{% endblock %}
+{% block stats %}{% endblock %}
+{% block features %}{% endblock %}
+{% block beforecomm %}{% endblock %}
+{% block testimonials %}{% endblock %}
+{% block content %}{% endblock %}
+{% block paginator %}{% endblock %}
+<!--******************************************************
 ******************** The Footer wrapper
 ****************************************************** -->
-  <div id="footer" class="wrapper wrapper-md wrapper-transparent wow fadeIn">
+<div id="footer" class="wrapper wrapper-md wrapper-transparent wow fadeIn">
     <div class="container">
-      <div class="row">
-        <div class="col-md-2">
-          <h6>Service</h6>
-          <ul class="nav nav-stacked">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Dolor sitam</a></li>
-            <li><a href="#">Sit amet</a></li>
-            <li><a href="#">Ut labore</a></li>
-            <li><a href="#">Sed diam</a></li>
-          </ul>
+        <div class="row">
+            <div class="col-md-2">
+                <h6>Service</h6>
+                <ul class="nav nav-stacked">
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Dolor sitam</a></li>
+                    <li><a href="#">Sit amet</a></li>
+                    <li><a href="#">Ut labore</a></li>
+                    <li><a href="#">Sed diam</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <h6>About</h6>
+                <ul class="nav nav-stacked">
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Dolor sitam</a></li>
+                    <li><a href="#">Sit amet</a></li>
+                    <li><a href="#">Ut labore</a></li>
+                    <li><a href="#">Sed diam</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h6>Latest news</h6>
+                <p>Lorem ipsum dolor sit nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                    voluptua...<br/><a href="single.html">Read on</a></p>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+                <i class="fa fa-dribbble fa-2x fa-border-circle text-center"></i>
+                <i class="fa fa-facebook fa-2x fa-border-circle text-center col-md-offset-1"></i>
+                <i class="fa fa-twitter fa-2x fa-border-circle text-center col-md-offset-1"></i>
+                <i class="fa fa-apple fa-2x fa-border-circle text-center col-md-offset-1"></i>
+            </div>
         </div>
 
-        <div class="col-md-2">
-          <h6>About</h6>
-          <ul class="nav nav-stacked">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Dolor sitam</a></li>
-            <li><a href="#">Sit amet</a></li>
-            <li><a href="#">Ut labore</a></li>
-            <li><a href="#">Sed diam</a></li>
-          </ul>
+        <div class="row wrapper-sm wrapper-no-padding-bottom">
+
+            <div class="col-md-12">
+                <hr/>
+                <p>
+                    <small>© 2019 - Made with <i class="fa fa-heart colored"></i> in Italy | Developed and designed by
+                        <a href="https://ahd-creative.it" target="_blank">AHD Creative Solutions</a></small>
+                </p>
+            </div>
         </div>
-
-        <div class="col-md-4">
-          <h6>Latest news</h6>
-          <p>Lorem ipsum dolor sit nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...<br/><a href="single.html">Read on</a></p>
-
-        </div>
-
-        <div class="col-md-4 text-center">
-          <i class="fa fa-dribbble fa-2x fa-border-circle text-center"></i>
-          <i class="fa fa-facebook fa-2x fa-border-circle text-center col-md-offset-1"></i>
-          <i class="fa fa-twitter fa-2x fa-border-circle text-center col-md-offset-1"></i>
-          <i class="fa fa-apple fa-2x fa-border-circle text-center col-md-offset-1"></i>
-        </div>
-      </div>
-
-      <div class="row wrapper-sm wrapper-no-padding-bottom">
-
-        <div class="col-md-12">
-           <hr/>
-          <p><small>© 2019 - Made with <i class="fa fa-heart colored"></i> in Italy | Developed and designed by <a href="https://ahd-creative.it" target="_blank">AHD Creative Solutions</a></small></p>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
 
 <!--******************************************************
 ******************** assets and scripts
 ****************************************************** -->
 
-    <!-- All core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
-    <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
-    <script src="{% static 'js/owl.carousel.min.js' %}" type="text/javascript"></script> <!-- The slider script - remove if you don´t use it -->
-    <script src="{% static 'js/smoothscroll.min.js' %}" type="text/javascript"></script> <!-- smoothscrolling script - remove if you don´t use it -->
-    <script src="{% static 'js/validator.min.js' %}" type="text/javascript"></script> <!-- The script for particle effects - remove if you don´t use it -->
-    <script src="{% static 'js/wow.min.js' %}" type="text/javascript"></script> <!-- The script for particle effects - remove if you don´t use it -->
-    <script src="{% static 'js/bica.min.js' %}" type="text/javascript"></script>
-    <script type="text/javascript">bica.init({ fallbackLang: 'it', infoUrl: 'https://cookiepolicygenerator.com/live.php?token=Rkmeu5QdR9kmLyji49xlftS7YZ4Kz0N4'})</script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<!-- All core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
+<script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
+<script src="{% static 'js/owl.carousel.min.js' %}" type="text/javascript"></script>
+<!-- The slider script - remove if you don´t use it -->
+<script src="{% static 'js/smoothscroll.min.js' %}" type="text/javascript"></script>
+<!-- smoothscrolling script - remove if you don´t use it -->
+<script src="{% static 'js/validator.min.js' %}" type="text/javascript"></script>
+<!-- The script for particle effects - remove if you don´t use it -->
+<script src="{% static 'js/wow.min.js' %}" type="text/javascript"></script>
+<!-- The script for particle effects - remove if you don´t use it -->
+<script src="{% static 'js/bica.min.js' %}" type="text/javascript"></script>
+<script type="text/javascript">bica.init({
+    fallbackLang: 'it',
+    infoUrl: 'https://cookiepolicygenerator.com/live.php?token=Rkmeu5QdR9kmLyji49xlftS7YZ4Kz0N4'
+})</script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
 
 
-
-    <!-- Init the Owl Carousel slider script - remove this code if it is not in use -->
-    <script type="text/javascript">
+<!-- Init the Owl Carousel slider script - remove this code if it is not in use -->
+<script type="text/javascript">
     $('.owl-carousel').owlCarousel({
         animateOut: 'fadeOut',
-        autoHeight:true,
-        items:1,
+        autoHeight: true,
+        items: 1,
         loop: true,
         autoplay: true,
         autoplaySpeed: 4000,
-        margin:0,
-        stagePadding:0,
-        smartSpeed:1000
+        margin: 0,
+        stagePadding: 0,
+        smartSpeed: 1000
     });
-    </script>
+</script>
 
-    <!-- Init wow.js for animations -->
-    <script>
-      wow = new WOW({
-        boxClass:     'wow',      // default
-        animateClass: 'animated', // default
-        offset:       100,          // default
-        mobile:       false,       // default
-        live:         true        // default
+<!-- Init wow.js for animations -->
+<script>
+    wow = new WOW({
+            boxClass: 'wow',      // default
+            animateClass: 'animated', // default
+            offset: 100,          // default
+            mobile: false,       // default
+            live: true        // default
         }
-        )
-      wow.init();
-    </script>
+    )
+    wow.init();
+</script>
 
-    <!-- Preloader -->
-    <script type="text/javascript">
-        //<![CDATA[
-            $(window).load(function() { // makes sure the whole site is loaded
-                $('#status').fadeOut(); // will first fade out the loading animation
-                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-                $('body').delay(350).css({'overflow':'visible'});
-            })
-        //]]>
-    </script>
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+    $(window).load(function () { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow': 'visible'});
+    })
+    //]]>
+</script>
 
 </body>
 </html>
