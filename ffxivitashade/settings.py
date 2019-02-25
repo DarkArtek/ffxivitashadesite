@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 import dj_database_url
 import django_heroku
+from django.utils.translation import ugettext_lazy as _
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -56,6 +57,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -116,8 +118,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'it'
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
+LANGUAGES = [
+    ('it', _('Italian')),
+    ('en-us', _('English'))
+]
+TIME_ZONE = 'Europe/Rome'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -150,6 +157,7 @@ AWS_HEADERS = {
     'Expires': 'Thu, 15 Apr 2021 20:00:00 GMT',
     'Access-Control-Allow-Origin':'*',
 }
+AWS_DEFAULT_ACL = 'public-read'
 STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
 # STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
@@ -182,3 +190,4 @@ CACHES = {
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = "/"
+
