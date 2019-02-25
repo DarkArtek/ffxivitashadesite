@@ -132,6 +132,7 @@
       <change beforePath="$PROJECT_DIR$/ffxivitashade/static/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/static/js/wow.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffxivitashade/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ffxivitashade/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ffxivitashade/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/avatars/942373146ba90dfef6c5dbbac5d4db3c_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/avatars/942373146ba90dfef6c5dbbac5d4db3c_1.png" afterDir="false" />
@@ -166,11 +167,72 @@
       <change beforePath="$PROJECT_DIR$/templates/presets/listings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presets/listings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/presets/preset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presets/preset.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/socialaccount/authentication_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/socialaccount/authentication_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/venicesite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/venicesite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../venicebar/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/migrations/0002_auto_20190102_1109.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/migrations/0002_auto_20190102_1109.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/migrations/0003_auto_20190102_1122.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/migrations/0003_auto_20190102_1122.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/css/flexslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/font/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/font/Flaticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/font/fontello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/font/fontello.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/jquery.flexslider-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/jquery.flexslider-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/masonry.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/masonry.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/static/js/smooth-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/static/js/smooth-scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/blog/blog_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/blog/blog_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/cafe_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/cafe_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/locations.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/locations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/snippets/form_reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/snippets/form_reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/snippets/gmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/snippets/gmap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/templates/venice_site/template_full.html" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/templates/venice_site/template_full.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venice_site/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venice_site/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venice_site/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venice_site/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venice_site/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venice_site/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venice_site/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venice_site/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venice_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venice_site/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venicesite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venicesite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venicesite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venicesite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venicebar/venicesite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../venicebar/venicesite/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,8 +251,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="49" column="145" lean-forward="true" selection-start-line="49" selection-start-column="115" selection-end-line="49" selection-end-column="145" />
+            <state relative-caret-position="1127">
+              <caret line="49" column="145" selection-start-line="49" selection-start-column="115" selection-end-line="49" selection-end-column="145" />
             </state>
           </provider>
         </entry>
@@ -198,8 +260,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="529">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
               </folding>
@@ -210,11 +272,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
-              <folding>
-                <element signature="e#331#340#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1299">
+              <caret line="118" column="52" lean-forward="true" selection-start-line="118" selection-start-column="52" selection-end-line="118" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -231,8 +290,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+            <state relative-caret-position="383">
+              <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -240,7 +299,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/presets/preset.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="874">
               <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
             </state>
           </provider>
@@ -353,6 +412,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,7 +501,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,18 +586,18 @@
       <workItem from="1550989636520" duration="18201000" />
       <workItem from="1551016795814" duration="2742000" />
       <workItem from="1551082389682" duration="3282000" />
-      <workItem from="1551089540316" duration="2401000" />
+      <workItem from="1551089540316" duration="2913000" />
+      <workItem from="1551096354120" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78120000" />
+    <option name="totallyTimeSpent" value="78872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="794" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.21588486" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.19722815" />
       <window_info id="Favorites" order="2" sideWeight="0.501462" side_tool="true" weight="0.19722815" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -552,7 +611,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.23033708" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.22696629" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.2263868" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32921347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -768,6 +827,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo" />
+    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="145" selection-start-line="49" selection-start-column="115" selection-end-line="49" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ffxivitashade/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/presets/preset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/account/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
@@ -789,54 +880,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ffxivitashade/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/presets/preset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="49" column="145" lean-forward="true" selection-start-line="49" selection-start-column="115" selection-end-line="49" selection-end-column="145" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ffxivitashade/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
-          <folding>
-            <element signature="e#331#340#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1299">
+          <caret line="118" column="52" lean-forward="true" selection-start-line="118" selection-start-column="52" selection-end-line="118" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        <state relative-caret-position="383">
+          <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
         </state>
       </provider>
     </entry>
